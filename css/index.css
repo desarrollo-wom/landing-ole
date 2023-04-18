@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+.container-index {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    min-height: 900px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/pattern-bg.png);
+    background-color: #fec70b;
+}
+
+.container-index .logo-header {
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.container-index .cont-btn {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.cont-btn a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    padding: 20px 0px;
+    max-width: 230px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.cont-btn a:first-child {
+    background-color: #009845;
+}
+
+.cont-btn a:last-child {
+    background-color: #e53f33;
+}
+
+.cont-btn a:before {
+    content: "";
+
+}
